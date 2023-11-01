@@ -1,9 +1,3 @@
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
-
 :root {
     --primary-brand-color: #4d5ae5;
     --pressed-state-color: #404BBF;
@@ -23,6 +17,34 @@ h2,
 h3,
 p {
     margin: 0;
+}
+
+/* ================================================= MOBILE 👇 ========================================= */
+@media screen and (max-width: 767px) {
+    /* cały kod */
+}
+
+/* ================================================= TABLET 👇 ========================================= */
+@media screen and (min-width: 768px) {
+    /* cały kod */
+}
+
+/* ================================================= NOT DESKTOP 👇 ========================================= */
+@media screen and (max-width: 1157px) {
+    .icon-features {
+        display: none;
+    }
+}
+
+/* ================================================= DESKTOP 👇 ========================================= */
+@media screen and (min-width: 1158px) {
+    /* co jest potrzebne dla desktopu */
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .visually-hidden {
