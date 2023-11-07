@@ -13,15 +13,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
     <link href="./css/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
     <header class="headerr">
-        <!--<div class="container-header container">
+        <div class="container-header container">
             <nav class="nav-header">
                 <a href="./index.html" class="link logo-general lgo">Web<span class="logo-studio">Studio</span>
                 </a>
+                <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="./images/icons.svg#icon-hamburger">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
                 <ul class="list link menu">
                     <li>
                         <a href="./index.html" class="link--current link studio menu-link">Studio</a>
@@ -33,7 +45,7 @@
                         <a href="#" class="link studio menu-link">Contacts</a>
                     </li>
                 </ul>
-            </nav> 
+            </nav>
 
             <address class="address link">
                 <ul class="list link menu">
@@ -41,7 +53,7 @@
                     <li><a href="tel:+110001111111" class="contact link">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
-        </div>-->
+        </div>
     </header>
     <main>
         <section class="section-one">
@@ -103,7 +115,7 @@
                 </ul>
             </div>
         </section>
-        <!--<section class="section-third">
+        <section class="section-third">
             <div class="container">
                 <h2 class="information">What are we doing</h2>
                 <ul class="photo list">
@@ -361,7 +373,8 @@
                         class="textarea-modal"></textarea>
                 </div>
                 <div class="div-modal-fife">
-                    <input id="user-privacy" type="checkbox" value="true" name="user-privacy" required>
+                    <input id="user-privacy" type="checkbox" value="true" name="user-privacy"
+                        class="visually-hidden modal-check" required>
                     <label class="label-modal-two" for="user-privacy">
                         <span class="span-label"><svg width="10" height="8" class="svg-modal-three">
                                 <use href="./images/icons.svg#icon-vector"></use>
@@ -384,18 +397,36 @@
             </svg>
         </button>
 
-        <ul class="mobile-menu">
-            <li><a href="" class="link">About</a></li>
-            <li><a href="" class="link">Products</a></li>
-            <li><a href="" class="link">Contacts</a></li>
-            <li><a href="" class="link">Career</a></li>
-        </ul>
+        <header class="headerr mobile-menu">
+            <div class="container-header container">
+                <nav class="nav-header">
+                    <ul class="list link menu">
+                        <li>
+                            <a href="./index.html" class="link--current link studio menu-link">Studio</a>
+                        </li>
+                        <li>
+                            <a href="./portfolio.html" class="link studio menu-link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#" class="link studio menu-link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <address class="address link">
+                    <ul class="list link menu">
+                        <li><a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a></li>
+                        <li><a href="tel:+110001111111" class="contact link">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+            </div>
+        </header>
     </div>
 
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
         crossorigin="anonymous"></script>
     <script defer src="js/mobile-menu.js"></script>
-</body> -->
+</body>
 
 </html>
