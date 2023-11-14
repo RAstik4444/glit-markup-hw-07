@@ -43,15 +43,18 @@
 }
 
 .menu-container {
+    overflow-y: auto;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 32px;
-    background-color: #3f51b5;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
     z-index: 999;
-
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 35px;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
 }
