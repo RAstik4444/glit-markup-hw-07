@@ -951,19 +951,18 @@ a.link--current {
 }
 
 .mobilemenu-navigation {
-    color: var(--studio-color);
+    color: var(--dark-color);
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 
 .mobilemenu-navigation:hover,
 .mobilemenu-navigation:focus {
-    color: var(--CHECKBOX);
+    color: var(--color-menu-p);
 }
 
 .mobilemenu-address-flex {
@@ -973,12 +972,11 @@ a.link--current {
 }
 
 .mobilemenu-tel-link {
-    color: var(--logo-color);
+    color: var(--color-logo);
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -996,12 +994,11 @@ a.link--current {
 }
 
 .mobilemenu-address-link {
-    color: var(--main-text-color);
+    color: var(--text-color);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    /* 120% */
     letter-spacing: 0.4px;
 }
 
