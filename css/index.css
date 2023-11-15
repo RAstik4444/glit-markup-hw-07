@@ -1268,7 +1268,7 @@ p {
         font-style: normal;
         align-items: center;
         margin-left: auto;
-        padding: 24px 0;
+        padding: 0 0;
     }
 
     .contact {
@@ -1591,7 +1591,7 @@ p {
     .list-customers {
         display: flex;
         flex-wrap: wrap;
-        gap: 16px;
+        gap: 24px;
         justify-content: center;
         row-gap: 72px;
     }
@@ -1633,8 +1633,7 @@ p {
 
     .footer {
         background-color: var(--dark-color);
-        padding-top: 97.5px;
-        padding-bottom: 96px;
+        padding: 97.5px 0 96px 30px;
     }
 
     .footer-div {
