@@ -44,8 +44,6 @@ p {
 @media screen and (max-width: 767px) {
     .container {
         max-width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -67,13 +65,12 @@ p {
 
     .container {
         margin: 0 auto;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .nav-header {
         display: flex;
         align-items: center;
+        padding-left: 16px;
     }
 
     .lgo {
@@ -240,7 +237,7 @@ p {
     /*============================================== SECTION SECOND ========================================*/
 
     .section-second {
-        padding: 96px 0;
+        padding: 96px 16px;
     }
 
     .visually-hidden {
@@ -310,8 +307,6 @@ p {
 
     .container {
         margin: 0 auto;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .information {
@@ -344,8 +339,6 @@ p {
 
     .container {
         margin: 0 auto;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .information {
@@ -440,13 +433,11 @@ p {
     /*============================================== SECTION FIVE ============================================*/
 
     .section-five {
-        padding-top: 96px;
+        padding: 96px 16px;
     }
 
     .container {
         margin: 0 auto;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .information {
@@ -469,19 +460,12 @@ p {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        column-gap: 24px;
-        row-gap: 72px;
-        padding-bottom: 96px;
-    }
-
-    .section-customers {
-        width: 168px;
-        height: 88px;
+        gap: 72px 16px;
     }
 
     .client {
-        width: 100%;
-        height: 100%;
+        width: 190px;
+        height: 88px;
         border: 1px solid #8e8F99;
         border-radius: 4px;
         display: flex;
@@ -524,8 +508,6 @@ p {
 
     .container {
         margin: 0 auto;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .container-logo {
@@ -1644,7 +1626,7 @@ p {
 
     .footer {
         background-color: var(--dark-color);
-        padding: 97.5px 0 96px 30px;
+        padding: 96px 0;
     }
 
     .footer-div {
@@ -1653,16 +1635,12 @@ p {
         gap: 24px;
         row-gap: 72px;
         padding-left: 108px;
+        max-width: 550px;
     }
 
     .container {
         padding: 0 16px;
         margin: 0 auto;
-    }
-
-    .container-logo {
-        margin-left: 80px;
-
     }
 
     .lgo-footer {
@@ -1740,10 +1718,6 @@ p {
 
     .svg-team {
         fill: var(--light-color);
-    }
-
-    .div-footer-subskribe {
-        margin-left: 80px;
     }
 
     .footer-form {
